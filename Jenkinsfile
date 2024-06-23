@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout SCM') {
       steps {
-        git(url: 'https://github.com/Krackern/test.git', branch: 'Master')
+        git url: 'https://github.com/Krackern/test.git', branch: 'main'
       }
     }
 
